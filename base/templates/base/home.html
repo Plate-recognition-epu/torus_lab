@@ -1,5 +1,7 @@
 {% extends 'main.html' %}
 
+{% load static %}
+
 {% block content %}
 
 <div class="slider-area">
@@ -84,7 +86,7 @@
 
             <div class="col-md-6">
                 <div class="post-media wow fadeIn">
-                    <img src="images\torus-images\ca98bdb9-d174-4f6c-a07b-58cbd15b2847.jpg" alt=""
+                    <img src="{% static 'images\torus-images\ca98bdb9-d174-4f6c-a07b-58cbd15b2847.jpg' %}" alt=""
                         class="img-responsive img-rounded">
                     <!-- <a href="http://www.youtube.com/watch?v=nrJtHemSPW4" data-rel="prettyPhoto[gal]" class="playbutton"><i class="flaticon-play-button"></i></a> -->
                 </div><!-- end media -->
@@ -96,7 +98,7 @@
         <div class="row">
             <div class="col-md-6">
                 <div class="post-media wow fadeIn">
-                    <img src="images\torus-images\bc089b4c-27e2-4c81-9db7-eec44bff7fd9.jpg" alt=""
+                    <img src="{% static 'images\torus-images\bc089b4c-27e2-4c81-9db7-eec44bff7fd9.jpg' %}" alt=""
                         class="img-responsive img-rounded">
                 </div><!-- end media -->
             </div><!-- end col -->
@@ -122,7 +124,7 @@
 </div><!-- end section -->
 
 <div class="parallax section parallax-off" data-stellar-background-ratio="0.9"
-    style="background-image:url('uploads/parallax_04.jpg');">
+    style="background-image:url('{% static 'uploads/parallax_04.jpg' %}');">
     <div class="container">
         <div class="row text-center stat-wrap">
             <div class="col-md-3 col-sm-6 col-xs-12">
@@ -163,9 +165,9 @@
         <div class="owl-services owl-carousel owl-theme">
             <div class="service-widget">
                 <div class="post-media wow fadeIn">
-                    <a href="./images/torus-images/889.PNG" data-rel="prettyPhoto[gal]"
+                    <a href="{% static 'images/torus-images/889.PNG' %}" data-rel="prettyPhoto[gal]"
                         class="hoverbutton global-radius"><i class="flaticon-unlink"></i></a>
-                    <img style="height: 216px;" src="./images/torus-images/889.PNG" alt="" class="img-responsive img-rounded">
+                    <img style="height: 216px;" src="{% static 'images/torus-images/889.PNG' %}" alt="" class="img-responsive img-rounded">
                 </div>
                 <div class="service-dit">
                     <h3>Annotation tool</h3>
@@ -177,9 +179,9 @@
 
             <div class="service-widget">
                 <div class="post-media wow fadeIn">
-                    <a href="uploads/service_02.jpg" data-rel="prettyPhoto[gal]"
+                    <a href="{% static 'uploads/service_02.jpg' %}" data-rel="prettyPhoto[gal]"
                         class="hoverbutton global-radius"><i class="flaticon-unlink"></i></a>
-                    <img src="uploads/service_02.jpg" alt="" class="img-responsive img-rounded">
+                    <img src="{% static 'uploads/service_02.jpg' %}" alt="" class="img-responsive img-rounded">
                 </div>
                 <div class="service-dit">
                     <h3>Web UI Kit Design</h3>
@@ -191,9 +193,9 @@
 
             <div class="service-widget">
                 <div class="post-media wow fadeIn">
-                    <a href="./images/torus-images/lap-trinh-backend.png" data-rel="prettyPhoto[gal]"
+                    <a href="{% static 'images/torus-images/lap-trinh-backend.png' %}" data-rel="prettyPhoto[gal]"
                         class="hoverbutton global-radius"><i class="flaticon-unlink"></i></a>
-                    <img src="./images/torus-images/lap-trinh-backend.png" alt="" class="img-responsive img-rounded">
+                    <img src="{% static 'images/torus-images/lap-trinh-backend.png' %}" alt="" class="img-responsive img-rounded">
                 </div>
                 <div class="service-dit">
                     <h3>Back End</h3>
@@ -205,9 +207,9 @@
 
             <div class="service-widget">
                 <div class="post-media wow fadeIn">
-                    <a href="./images/torus-images/13429_ILL_DevOpsLoop.png" data-rel="prettyPhoto[gal]"
+                    <a href="{% static 'images/torus-images/13429_ILL_DevOpsLoop.png' %}" data-rel="prettyPhoto[gal]"
                         class="hoverbutton global-radius"><i class="flaticon-unlink"></i></a>
-                    <img src="./images/torus-images/13429_ILL_DevOpsLoop.png" alt="" class="img-responsive img-rounded">
+                    <img src="{% static 'images/torus-images/13429_ILL_DevOpsLoop.png' %}" alt="" class="img-responsive img-rounded">
                 </div>
                 <div class="service-dit">
                     <h3>Dev-oops</h3>
@@ -227,7 +229,7 @@
 </div><!-- end section -->
 
 <div class="parallax section noover" data-stellar-background-ratio="0.7"
-    style="background-image:url('uploads/parallax_05.png');">
+    style="background-image:url('{% static 'uploads/parallax_05.png' %}');">
     <div class="container">
         <div class="section-title text-center ">
             <h3 style="color: #fff;">Our Team</h3>
@@ -237,7 +239,7 @@
             <div class="row">
                 <div class="col-md-3 col-sm-6 col-xs-12">
                     <div>
-                        <img src="./images/torus-images/T02GF8PGL4U-U02GD429BPU-6d6ad09f4523-512.jpg" class=""
+                        <img src="{% static 'images/torus-images/T02GF8PGL4U-U02GD429BPU-6d6ad09f4523-512.jpg' %}" class=""
                             alt="Avatar" style="border-radius: 50%;width:200px; height: 200px;"><br>
                     </div>
                     <div>
@@ -246,7 +248,7 @@
                 </div><!-- end col -->
                 <div class="col-md-3 col-sm-6 col-xs-12">
                     <div>
-                        <img src="./images/torus-images/T02GF8PGL4U-U02JBQNHVT2-8173c07d58ea-512.png" class=""
+                        <img src="{% static 'images/torus-images/T02GF8PGL4U-U02GD429BPU-6d6ad09f4523-512.jpg' %}" class=""
                             alt="Avatar" style="border-radius: 50%;width:200px; height: 200px;"><br>
                     </div>
                     <div>
@@ -256,7 +258,7 @@
             </div>
             <div class="col-md-3 col-sm-6 col-xs-12">
                 <div>
-                    <img src="./images/torus-images/Capture.PNG" class=""
+                    <img src="{% static 'images/torus-images/Capture.PNG' %}" class=""
                         alt="Avatar" style="border-radius: 50%;width:200px; height: 200px;"><br>
                 </div>
                 <div>
@@ -265,7 +267,7 @@
             </div><!-- end col -->
                 <div class="col-md-3 col-sm-6 col-xs-12">
                     <div>
-                        <img src="./images/torus-images/123.jpg" class=""
+                        <img src="{% static 'images/torus-images/123.jpg' %}" class=""
                             alt="Avatar" style="border-radius: 50%;width:200px; height: 200px;"><br>
                     </div>
                     <div>
@@ -329,7 +331,7 @@
                 </ul>
             </div>
             <div class="col-md-4 hidden-xs hidden-sm">
-                <img src="uploads/ipad.png" class="img-center img-responsive" alt="">
+                <img src="{% static 'uploads/ipad.png' %}" class="img-center img-responsive" alt="">
             </div>
             <div class="col-md-4 col-sm-6 col-xs-12">
                 <ul class="features-right">
@@ -368,7 +370,7 @@
 </div><!-- end section -->
 
 <div id="testimonials" class="parallax section db parallax-off"
-    style="background-image:url('uploads/parallax_03.jpg');">
+    style="background-image:url('{% static 'parallax_03.jpg' %}');">
     <div class="container">
         <div class="section-title text-center">
             <h3>Testimonials</h3>
@@ -387,7 +389,7 @@
                                 skilled, and experienced & professional team.</p>
                         </div>
                         <div class="testi-meta">
-                            <img src="./images/torus-images/4.jpg" alt="" class="img-responsive alignleft">
+                            <img src="{% static 'images/torus-images/4.jpg' %}" alt="" class="img-responsive alignleft">
                             <h4>Vung Le Van <small>- Manager</small></h4>
                         </div>
                         <!-- end testi-meta -->
@@ -401,7 +403,7 @@
                                 praising pain was born and I will give you completed.</p>
                         </div>
                         <div class="testi-meta">
-                            <img src="uploads/testi_02.png" alt="" class="img-responsive alignleft">
+                            <img src="{% static 'uploads/testi_02.png' %}" alt="" class="img-responsive alignleft">
                             <h4>Jacques Philips <small>- Designer</small></h4>
                         </div>
                         <!-- end testi-meta -->
@@ -415,7 +417,7 @@
                                 pleasure itself, because it is very pursue pleasure. </p>
                         </div>
                         <div class="testi-meta">
-                            <img src="uploads/testi_03.png" alt="" class="img-responsive alignleft">
+                            <img src="{% static 'uploads/testi_03.png' %}" alt="" class="img-responsive alignleft">
                             <h4>Venanda Mercy <small>- Newyork City</small></h4>
                         </div>
                         <!-- end testi-meta -->
@@ -428,7 +430,7 @@
                                 skilled, and experienced & professional team.</p>
                         </div>
                         <div class="testi-meta">
-                            <img src="uploads/testi_01.png" alt="" class="img-responsive alignleft">
+                            <img src="{% static 'uploads/testi_01.png' %}" alt="" class="img-responsive alignleft">
                             <h4>James Fernando <small>- Manager of Racer</small></h4>
                         </div>
                         <!-- end testi-meta -->
@@ -442,7 +444,7 @@
                                 praising pain was born and I will give you completed.</p>
                         </div>
                         <div class="testi-meta">
-                            <img src="uploads/testi_02.png" alt="" class="img-responsive alignleft">
+                            <img src="{% static 'uploads/testi_02.png' %}" alt="" class="img-responsive alignleft">
                             <h4>Jacques Philips <small>- Designer</small></h4>
                         </div>
                         <!-- end testi-meta -->
@@ -456,7 +458,7 @@
                                 pleasure itself, because it is very pursue pleasure. </p>
                         </div>
                         <div class="testi-meta">
-                            <img src="uploads/testi_03.png" alt="" class="img-responsive alignleft">
+                            <img src="{% static 'uploads/testi_03.png' %}" alt="" class="img-responsive alignleft">
                             <h4>Venanda Mercy <small>- Newyork City</small></h4>
                         </div>
                         <!-- end testi-meta -->
@@ -469,22 +471,22 @@
 
         <div class="row logos">
             <div class="col-md-2 col-sm-2 col-xs-6 wow fadeInUp">
-                <a href="#"><img src="uploads/logo_01.png" alt="" class="img-repsonsive"></a>
+                <a href="#"><img src="{% static 'uploads/logo_01.png' %}" alt="" class="img-repsonsive"></a>
             </div>
             <div class="col-md-2 col-sm-2 col-xs-6 wow fadeInUp">
-                <a href="#"><img src="uploads/logo_02.png" alt="" class="img-repsonsive"></a>
+                <a href="#"><img src="{% static 'uploads/logo_02.png' %}" alt="" class="img-repsonsive"></a>
             </div>
             <div class="col-md-2 col-sm-2 col-xs-6 wow fadeInUp">
-                <a href="#"><img src="uploads/logo_03.png" alt="" class="img-repsonsive"></a>
+                <a href="#"><img src="{% static 'uploads/logo_03.png' %}" alt="" class="img-repsonsive"></a>
             </div>
             <div class="col-md-2 col-sm-2 col-xs-6 wow fadeInUp">
-                <a href="#"><img src="uploads/logo_04.png" alt="" class="img-repsonsive"></a>
+                <a href="#"><img src="{% static 'uploads/logo_04.png' %}" alt="" class="img-repsonsive"></a>
             </div>
             <div class="col-md-2 col-sm-2 col-xs-6 wow fadeInUp">
-                <a href="#"><img src="uploads/logo_05.png" alt="" class="img-repsonsive"></a>
+                <a href="#"><img src="{% static 'uploads/logo_05.png' %}" alt="" class="img-repsonsive"></a>
             </div>
             <div class="col-md-2 col-sm-2 col-xs-6 wow fadeInUp">
-                <a href="#"><img src="uploads/logo_06.png" alt="" class="img-repsonsive"></a>
+                <a href="#"><img src="{% static 'uploads/logo_06.png' %}" alt="" class="img-repsonsive"></a>
             </div>
         </div><!-- end row -->
 
